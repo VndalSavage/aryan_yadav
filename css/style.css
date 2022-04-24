@@ -102,6 +102,19 @@ font-family: 'Work Sans';
   bottom: 5px;
 }
 
+.myButton {
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.myButton:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
 .description {
   font-family: Work Sans;
   font-size: 14px;
