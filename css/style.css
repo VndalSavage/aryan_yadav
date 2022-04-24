@@ -55,6 +55,7 @@ img {
   width: 100%;
   height: 50vh;
   object-fit: cover;
+  object-position: center top;
 }
 
 .wrapper {
@@ -68,6 +69,32 @@ img {
 color: #ffffff;
 font-size: 24px;
 font-family: 'Roboto';
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.myButton {
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 16px 31px;
+  text-decoration: none;
+  margin: 1.69em auto;
+}
+
+.myButton:hover {
+  background-color: rgba(0,0,0,.25);
+}
+
+.myButton:active {
+  position:relative;
+  top:1px;
 }
 
 .recipe {
@@ -102,18 +129,14 @@ font-family: 'Roboto';
   bottom: 5px;
 }
 
-.myButton {
+/*
+.myButton { 
   padding: 10px 20px;
   font-size: 15px;
   border-radius: 4px;
   transition-duration: 0.4s;
-}
-
-.myButton:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
+} 
+*/
 
 .description {
   font-family: Roboto;
